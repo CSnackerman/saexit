@@ -9,6 +9,7 @@ no idea why but install must be run once without sudo and once with
 
 ### Usage
 run `sexit` to save the working directory of a terminal session into the ~/.bash_session file
+
 run `sresume` to pick up where you left off
 
 ### Uninstallation
