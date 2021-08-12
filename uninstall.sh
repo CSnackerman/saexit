@@ -1,4 +1,5 @@
 #!/bin/bash
-sed -i '/alias sresume=\"source \/usr\/bin\/resumex\"/d' ~/.bashrc
-rm /usr/bin/sexit
-rm /usr/bin/resumex
+sed -i '/alias sresume=\"source \/usr\/local\/bin\/resumex\"/d' ~/.bashrc;
+rm -f /usr/local/bin/sexit;
+rm -f /usr/local/bin/resumex;
+source ~/.bashrc

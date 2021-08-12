@@ -1,8 +1,8 @@
 #!/bin/bash
-cp ./sexit.sh /usr/bin/sexit
-chmod a+x /usr/bin/sexit
+echo "alias sresume=\"source /usr/local/bin/resumex\"" >> ~/.bashrc;
 
-cp ./sresume.sh /usr/bin/resumex
-chmod a+x /usr/bin/resumex
+cp ./sexit.sh /usr/local/bin/sexit;
+chmod a+x /usr/local/bin/sexit;
 
-echo "alias sresume=\"source /usr/bin/resumex\"" >> ~/.bashrc
+cp ./sresume.sh /usr/local/bin/resumex;
+chmod a+x /usr/local/bin/resumex;
